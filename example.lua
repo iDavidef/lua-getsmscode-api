@@ -1,6 +1,6 @@
 class = dofile('getsmscode.lua')
 
-local api = class:new('genmarcogrensai@gmail.com', '1a36718cd246b2ee7afc1f6d087e6c41') --username = email, token can be found on the homepage @ getsmscode.com
+local api = class:new('your_username', 'your_token') --username = email, token can be found on the homepage @ getsmscode.com
 print('My balance is: '..api:get_balance()) --echo balance
 
 --get a chinese (+86) number for Telegram
