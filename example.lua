@@ -1,4 +1,4 @@
-class = dofile('getsmscode.lua')
+class = require('getsmscode')
 
 local api = class:new('your_username', 'your_token') --username = email, token can be found on the homepage @ getsmscode.com
 print('My balance is: '..api:get_balance()) --echo balance
